@@ -1,0 +1,60 @@
+/* global */
+body {
+  color: #111;
+  background: #ccc;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+svg * {
+  font-family: "Mate SC", sans-serif;
+}
+
+/* heat-map */
+#heat-map {
+  padding: 5px;
+  background: #fff;
+  width: 95%;
+  margin: 20px auto;
+  font-family: "Mate SC", sans-serif;
+  -webkit-box-shadow: 5px 5px 20px 5px;
+          box-shadow: 5px 5px 20px 5px;
+  overflow: auto;
+}
+
+#heat-map #title,
+#heat-map #description {
+  text-align: center;
+}
+
+#heat-map .axis-label {
+  font-weight: bold;
+}
+
+/* tooltip */
+#tooltip {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  background: #111;
+  opacity: 0.9;
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+  padding: 0.5em;
+}
+
+#tooltip #hdg {
+  margin-top: 0;
+}
+
+#tooltip p:first-child {
+  margin: 0 0 3px;
+}
+
+#tooltip p:last-child {
+  margin: 0;
+}
+/*# sourceMappingURL=styles.css.map */
